@@ -2,266 +2,152 @@
 
 <div align="center">
 
-![NexCall Banner](https://img.shields.io/badge/NexCall-Video%20Conferencing-blue?style=for-the-badge)
+<img src="https://img.shields.io/badge/Project-NexCall-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Frontend-JavaScript-yellow?style=for-the-badge&logo=javascript">
+<img src="https://img.shields.io/badge/UI-HTML%20%7C%20CSS-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
 
-A modern **real-time video conferencing platform** built with **Next.js**, **TypeScript**, **Tailwind CSS**, and modern web technologies.
+### 🌐 Real-Time Communication & Calling Platform
 
-Designed for seamless online communication with secure authentication, responsive UI, and high-performance architecture.
+A modern frontend-based calling and communication interface built using pure web technologies.
 
 </div>
 
 ---
 
-# 📌 Overview
+# 📖 About The Project
 
-NexCall is a full-stack video conferencing and communication platform inspired by modern meeting applications like Zoom and Google Meet.
+**NexCall** is a responsive communication platform designed to provide a clean and modern calling experience directly in the browser.
 
-The platform provides users with a fast, responsive, and secure environment for:
+The project focuses on:
 
-* 🎥 Video meetings
-* 📞 Voice calls
-* 👥 Team collaboration
-* 🔐 Authentication & user management
-* ⚡ Real-time communication
-* 📱 Responsive cross-device experience
-
-Built using modern frontend architecture and scalable development practices.
+* 📞 Real-time communication UI
+* 🎨 Modern responsive interface
+* ⚡ Fast frontend performance
+* 📱 Cross-device compatibility
+* 🖥️ Browser-based interaction
 
 ---
 
 # ✨ Features
 
-## 🔐 Authentication System
+## 📞 Calling Interface
 
-* Secure user authentication
-* User session management
-* Protected routes
-* Login / Signup workflows
-* Middleware-based authentication handling
-
----
-
-## 🎥 Real-Time Video Meetings
-
-* Create instant meetings
-* Join meetings via meeting links
-* High-quality audio/video streaming
-* Real-time participant communication
+* Modern call screen UI
+* Interactive controls
+* Responsive layouts
+* User-friendly design
 
 ---
 
-## 👥 Meeting Management
+## 🎨 Clean UI/UX
 
-* Create scheduled meetings
-* Join active rooms
-* Meeting controls
-* Participant management
-
----
-
-## 🎨 Modern UI/UX
-
-* Beautiful responsive interface
-* Mobile-friendly layout
-* Clean dashboard experience
-* Reusable UI components
-* Smooth transitions and interactions
+* Minimal design
+* Smooth interactions
+* Mobile responsive
+* Modern component styling
 
 ---
 
-## ⚡ High Performance
+## ⚡ Performance
 
-* Built with Next.js App Router
-* Optimized rendering
-* Type-safe architecture using TypeScript
-* Fast loading and routing
-
----
-
-# 🛠️ Tech Stack
-
-## Frontend
-
-* **Next.js**
-* **React**
-* **TypeScript**
-* **Tailwind CSS**
-* **shadcn/ui**
+* Lightweight frontend
+* Fast page loading
+* Optimized static assets
 
 ---
 
-## Authentication
+# 🛠️ Built With
 
-* **Clerk Authentication**
-
----
-
-## Development Tools
-
-* ESLint
-* PostCSS
-* Modern component architecture
+| Technology        | Usage                |
+| ----------------- | -------------------- |
+| HTML5             | Structure            |
+| CSS3              | Styling              |
+| JavaScript        | Functionality        |
+| Responsive Design | Cross-device support |
 
 ---
 
 # 📂 Project Structure
 
-```bash
+```bash id="hsmj5f"
 NexCall/
 │
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable UI components
-├── hooks/               # Custom React hooks
-├── lib/                 # Utility/helper functions
-├── providers/           # Context & providers
-├── constants/           # Static configuration/constants
-├── public/              # Static assets
-│
-├── middleware.ts        # Route protection & middleware
-├── next.config.mjs      # Next.js configuration
-├── tailwind.config.ts   # Tailwind configuration
-├── tsconfig.json        # TypeScript configuration
-└── package.json         # Project dependencies
+├── index.html          # Main entry point
+├── style.css           # Global styles
+├── script.js           # Main functionality
+├── assets/             # Images & static files
+└── README.md           # Documentation
 ```
 
 ---
 
-# ⚙️ Installation
+# 🚀 Getting Started
 
-## 1️⃣ Clone the Repository
+## Clone Repository
 
-```bash
+```bash id="v6s8o7"
 git clone https://github.com/samratujjwal/NexCall.git
 ```
 
 ---
 
-## 2️⃣ Navigate to Project Directory
+## Open Project
 
-```bash
-cd NexCall
+Simply open:
+
+```bash id="kewb5m"
+index.html
 ```
 
----
-
-## 3️⃣ Install Dependencies
-
-Using npm:
-
-```bash
-npm install
-```
-
-Or using yarn:
-
-```bash
-yarn install
-```
-
-Or using pnpm:
-
-```bash
-pnpm install
-```
-
----
-
-# 🔑 Environment Variables
-
-Create a `.env.local` file in the root directory.
-
-Example:
-
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-```
-
-Add additional environment variables depending on your backend or video SDK configuration.
-
----
-
-# ▶️ Running the Project
-
-## Development Server
-
-```bash
-npm run dev
-```
-
-Open your browser and visit:
-
-```bash
-http://localhost:3000
-```
-
----
-
-# 🏗️ Build for Production
-
-```bash
-npm run build
-```
-
-Start production server:
-
-```bash
-npm start
-```
+in your browser.
 
 ---
 
 # 📱 Responsive Design
 
-NexCall is fully optimized for:
+The application is optimized for:
 
 * 💻 Desktop
-* 📱 Mobile Devices
-* 📟 Tablets
+* 📱 Mobile
+* 📟 Tablet
 
 ---
 
-# 🔒 Security
+# 🎯 Project Goals
 
-The project follows modern security practices including:
+This project was created to practice and demonstrate:
 
-* Protected routes
-* Environment variable management
-* Secure authentication flows
-* Middleware-based access control
+* Frontend development
+* Responsive web design
+* Interactive UI creation
+* JavaScript-based functionality
+* Modern communication platform layouts
 
 ---
 
 # 📸 Screenshots
 
-> Add your application screenshots here.
+## 🖥️ Main Interface
 
-Example sections:
-
-* Login Page
-* Dashboard
-* Meeting Room
-* Video Conference UI
+> Add screenshot here
 
 ---
 
-# 🚀 Deployment
+## 📱 Mobile View
 
-You can deploy NexCall easily on:
+> Add mobile screenshot here
 
-* **Vercel**
-* **Netlify**
-* **Railway**
-* **Render**
+---
 
-Recommended Platform:
+# 🔮 Future Improvements
 
-```bash
-Vercel
-```
+* 🎥 Video calling support
+* 🔐 Authentication system
+* 🌐 Backend integration
+* 💬 Real-time chat
+* 📡 WebRTC support
+* ☁️ Deployment support
 
 ---
 
@@ -269,53 +155,22 @@ Vercel
 
 Contributions are welcome!
 
-## Steps to Contribute
+## Steps
 
-1. Fork the repository
-2. Create a new branch
+```bash id="g6m9g0"
+# Fork repository
 
-```bash
-git checkout -b feature/your-feature-name
-```
+# Create new branch
+git checkout -b feature-name
 
-3. Commit changes
-
-```bash
+# Commit changes
 git commit -m "Added new feature"
+
+# Push branch
+git push origin feature-name
 ```
 
-4. Push branch
-
-```bash
-git push origin feature/your-feature-name
-```
-
-5. Open a Pull Request
-
----
-
-# 📋 Future Improvements
-
-* 📹 Screen sharing
-* 💬 Real-time chat
-* 🎙️ Meeting recording
-* 🌐 Multi-language support
-* 🔔 Notifications
-* 📅 Calendar integration
-* 👨‍💼 Admin dashboard
-
----
-
-# 🧠 Learning Goals Behind This Project
-
-This project demonstrates practical implementation of:
-
-* Full-stack web architecture
-* Authentication systems
-* Real-time communication workflows
-* Scalable React component design
-* Next.js App Router structure
-* Type-safe development with TypeScript
+Then open a Pull Request 🚀
 
 ---
 
@@ -323,15 +178,15 @@ This project demonstrates practical implementation of:
 
 If you like this project:
 
-* ⭐ Star the repository
-* 🍴 Fork the project
+* ⭐ Star the repo
+* 🍴 Fork it
 * 🛠️ Contribute improvements
 
 ---
 
 # 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
 ---
 
@@ -339,13 +194,12 @@ This project is licensed under the **MIT License**.
 
 ## Samrat Ujjwal
 
-Built with ❤️ using modern web technologies.
+Built with ❤️ for learning and innovation.
 
 ---
 
 <div align="center">
 
-### 🌟 NexCall — Connect Seamlessly Anywhere 🌟
+## 🌟 NexCall — Connect Beyond Boundaries 🌟
 
 </div>
-
