@@ -70,11 +70,11 @@ export default function VideoMeetComponent() {
 
     },[])
 
-    let getDislayMedia = () => {
+    let getDisplayMedia = () => {
         if (screen) {
             if (navigator.mediaDevices.getDisplayMedia) {
                 navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
-                    .then(getDislayMediaSuccess)
+                    .then(getDisplayMediaSuccess)
                     .then((stream) => { })
                     .catch((e) => console.log(e))
             }
@@ -208,7 +208,7 @@ export default function VideoMeetComponent() {
 
 
 
-    let getDislayMediaSuccess = (stream) => {
+    let getDisplayMediaSuccess = (stream) => {
         console.log("HERE")
         try {
             window.localStream.getTracks().forEach(track => track.stop())
@@ -393,7 +393,7 @@ export default function VideoMeetComponent() {
 
     useEffect(() => {
         if (screen !== undefined) {
-            getDislayMedia();
+            getDisplayMedia();
         }
     }, [screen,getDisplayMedia])
     let handleScreen = () => {
